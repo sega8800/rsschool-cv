@@ -19,4 +19,7 @@ I'm 21 years old. Now I'm studying in BSUIR on 3-d course. I have a good learnin
             }
         })
 ## Education  
-Belarussian State Uneversity of Innformatics and Radioelectronics         
+Belarussian State Uneversity of Innformatics and Radioelectronics
+## Languages 
+**English** - B1  
+**Russian** - Native speaker         
