@@ -17,4 +17,6 @@ I'm 21 years old. Now I'm studying in BSUIR on 3-d course. I have a good learnin
             if(e.key == '2'){
                 draggableElements[0].style.width =( draggableElements[0].offsetWidth + 20) + 'px';
             }
-        }) 
+        })
+## Education  
+Belarussian State Uneversity of Innformatics and Radioelectronics         
