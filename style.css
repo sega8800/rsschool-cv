@@ -5,19 +5,31 @@
   }
   @font-face {
     font-family: 'Inter';
-    src: url("assets/fonts/Inter-Bold.ttf");
+    src: url("assets/fonts/Inter-ExtraLight.ttf");
+    font-weight: 200;
+  }
+  @font-face {
+    font-family: 'Inter';
+    src: url("assets/fonts/Inter-SemiBold.ttf");
     font-weight: 300;
   }
+  @font-face {
+    font-family: 'Inter';
+    src: url("assets/fonts/Inter-Bold.ttf");
+    font-weight: 400;
+  }  
+  
 html {
     scroll-behavior: smooth; 
   }
-.body {
+body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin: auto;
   }
   .container {
-    max-width: 1440px;
+    max-width: 1920px;
     margin: 0 auto;
     background-color: black;
   }
@@ -26,6 +38,11 @@ html {
     justify-content: center;
     align-items: center;
     list-style: none;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: 'Inter';
+    font-weight: 100;
+    font-size: 20px;
     
   }
   .nav-link {
@@ -33,6 +50,9 @@ html {
     line-height: 50px;
     text-decoration: none;
     color: rgb(255, 255, 255);
+  }
+  .hr{
+      size: 2px;
   }
   .content{
       display:flex ;
@@ -47,6 +67,16 @@ html {
     border: 1px solid rgb(255, 255, 255);
     padding: 5px;
     background-color: rgb(255, 255, 255);
+    font-family: 'Inter';
+    
+   
+  }
+  .content h2{
+    font-family: 'Inter';
+    text-align: center;
+    font-weight: 300;
+    margin-top: auto;
+    margin-bottom: auto;
   }
   .contacts{
     border: 1px solid rgb(255, 255, 255);
@@ -57,4 +87,16 @@ html {
     border: 1px solid rgb(255, 255, 255);
     padding: 5px;
     background-color: rgb(255, 255, 255);
+  }
+  .contact_list{
+    padding-left: auto;
+    text-align: left;
+    list-style: none;
+    font-family: 'Inter';
+    font-weight: 200;
+
+  }
+  .contact_list span{
+    font-family: 'Inter';
+    font-weight: 300;
   }
