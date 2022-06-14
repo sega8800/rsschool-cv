@@ -8,6 +8,8 @@
     <title>CV</title>
 </head>
 <body>
+
+
     <header>
         <div class="container">
 
@@ -21,9 +23,9 @@
         </nav>
         <hr>
         
-        <div class="content">
-            <p class="img"><img src="assets/img/img.jpg" alt="my photo" width="54%"></p>
-            <div class="info">
+        <section class="content">
+            <p class="img"><img src="assets/img/img.jpg" alt="my photo" width="50%"></p>
+            <article class="info">
                 <h1>Sergey Kashkan</h1>
                 <div class="contacts">
                     <h2>Contact information</h2>
@@ -34,12 +36,85 @@
                         <li><span>Git:</span> sega8800</li>
                     </ul>
                 </div>
+            </article>
+        </section>
 
+        </div>
 
-            </div>
-        </div>
-        </div>
     </header>
+
+
+    <main>
+        <div class="container">
+
+            <section class="information">
+
+            <article id="skills">
+                <h2>Skills</h2>
+                <ul class="skills_list">
+                    <li><img src="assets/svg/HTML.png" alt="my photo" width="10%">HTML</li>
+                    <li><img src="assets/svg/CSS.png" alt="my photo" width="10%">CSS</li>
+                    <li><img src="assets/svg/C++.png" alt="my photo" width="10%">C++(Basic)</li>
+                    <li><img src="assets/svg/SQL.png" alt="my photo" width="10%">SQL(Basic)</li>
+                    <li><img src="assets/svg/JS.png" alt="my photo" width="10%">JavaScript(Basic)</li>
+                </ul>
+
+            </article>
+
+            <section id="about" class="about">
+                <h2>About me</h2>
+                <article>I’m 21 years old. Now I’m studying in BSUIR on 3-d course. I have a good learning skills. I like learn new technologies and develop new skills. I’m a good team player and allways open to work.</article>
+
+
+            </section>
+
+            </section>
+             <hr>
+
+            <section class="code">
+                <h2>Code example</h2>
+            <pre>       document.addEventListener('keydown', (e)=>{
+        if(e.key == '2'){
+            draggableElements[0].style.width =( draggableElements[0].offsetWidth + 20) + 'px';
+                    }
+                }) 
+                        </pre>                
+            </section>
+            <hr>
+
+            <section id="education" class="education">
+                <h2>Education</h2>
+                <article>
+                <img src="assets/svg/bsuir.png" alt="bsuir" width="6%">
+                <p> Belarusian State University of Informatics and Radioelectronics</p>
+                </article>           
+            </section>
+            <hr>
+
+            <section id="languages" class="languages">
+                <h2>Languages</h2>
+                <article>
+                <p><img src="assets/svg/eng.png" alt="bsuir" width="5%"> English - B1</p>
+                <p><img src="assets/svg/ru.png" alt="bsuir" width="5%">Russian - Native speaker</p>
+                </article>           
+            </section>
+
+        </div>
+    </main> 
+    
+    <footer>
+        <div class="container">
+            <section class="links">
+        <a href="https://rs.school/js-stage0/"class="rs-link"><img src="assets/svg/rs.png" alt="rs" width="50%"></a>
+        <p>2022</p>
+        <a href="https://github.com/sega8800"class="git-link"><img src="assets/svg/git.png" alt="git" width="50%"></a>
+            </section>
+        </div>
+    
+    </footer>
+
+
+   
     
 </body>
 </html>
