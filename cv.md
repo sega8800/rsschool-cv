@@ -23,3 +23,8 @@ function highAndLow(numbers){
   
   return result.join(' ');
 }
+## Education  
+Belarussian State Uneversity of Innformatics and Radioelectronics
+## Languages 
+**English** - B1  
+**Russian** - Native speaker
