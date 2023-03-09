@@ -13,15 +13,15 @@ I am student of last course in BSUIR. I have basic skills of web developing like
 * SQL(Basic)
 * JS(Basic)
 ## Code Example
-function highAndLow(numbers){
-  let arr = numbers.split( ' ' );
-  let max = Math.max.apply(null,arr);
-  let min = Math.min.apply(null,arr); 
-  let result = [max,min];
+function highAndLow(numbers){  
+  let arr = numbers.split( ' ' );  
+  let max = Math.max.apply(null,arr);  
+  let min = Math.min.apply(null,arr);   
+  let result = [max,min];  
   
   
   
-  return result.join(' ');
+  return result.join(' ');  
 }
 ## Education  
 Belarussian State Uneversity of Innformatics and Radioelectronics
